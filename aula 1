@@ -1,8 +1,14 @@
 Explicação dos Conceitos
 Conceitos:
-1- 
-2-
-3-
-4-
-5-
+1- Nuvem: termo utilizado para descrever uma rede global de servidores cada um com uma função única, assim ela não é uma entidade física mas uma vasta rede de servidores remotos ao redor do globo que são conectados e operam com um unico ecossistema 
+2- Sistema Operacional: O sistema operacional é um software, ou conjunto de softwares, cuja função é administrar e gerenciar os recursos de um sistema, desde componentes de hardware e sistemas de arquivos a programas de terceiros, estabelecendo a interface entre o computador e o usuário. O sistema operacional introduz uma camada de abstração entre o hardware e o usuário, que transforma comandos no mouse, teclado e solicitações do sistema, como gerenciamento de recursos (CPU, memória RAM), em linguagem de máquina, enviando instruções ao processador.
+3- Sistema de Arquivos: Na prática, um sistema de arquivo (file system, do inglês) é um conjunto de estruturas lógicas, ou seja, feitas diretamente via software, que permite ao sistema operacional ter acesso e controlar os dados gravados no disco.
+Cada sistema operacional lida com um sistema de arquivos diferente e cada sistema de arquivos possui as suas peculiaridades, como limitações, qualidade, velocidade, gerenciamento de espaço, entre outras características. É o sistema de arquivos que define como os bytes que compõem um arquivo serão armazenados no disco e de que forma o sistema operacional terá acesso aos dados.
+4- Dados: Em resumo, dados são valores atribuídos a algo. Estes valores não precisam ser necessariamente números. Eles também podem ser, por exemplo, conceitos ou posições em um mapa. Dados podem ser medidos ou mensurados por meio de instrumentos, mas também podem ser atribuídos de forma arbitrária. 
+5- Zero-Rating: O Zero Rating é uma prática realizada pelas operadoras e algumas empresas de tecnologia que consiste em permitir o acesso de forma "gratuita", ou sem cobrar o tráfego de dados móveis a alguns serviços online, como apps de rede sociais e mensagens.
 Bibliografias: 
+1- Microsoft Azure
+2- Technoblog
+3- TechTudo
+4- Escola de Dados
+5- TechTudo
