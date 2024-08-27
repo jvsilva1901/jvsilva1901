@@ -1,0 +1,15 @@
+Códigos:
+1- Java: class Main {
+    public static void main(String[] args) {
+        System.out.println("o flamengo é o melhor do mundo");
+    }
+}
+2- Python: print("o flamengo é seleção")
+3- PHP: <?php
+echo "o Brasil vai ser hexa";
+?>
+Função de cada uma:
+Java: Linguagem orientada a objetos, usada em desenvolvimento Android e sistemas corporativos. É multiplataforma, rodando em qualquer sistema com JVM.
+Python: Python é uma linguagem versátil e fácil de aprender, usada para desenvolvimento web, automação, ciência de dados e scripts diversos.
+PHP:PHP é uma linguagem de script usada principalmente para desenvolvimento web, permitindo criar sites dinâmicos e interativos ao integrar com HTML e bancos de dados.
+Diferenças: Java é uma linguagem orientada a objetos usada principalmente para aplicações empresariais e Android, com um código mais estruturado e necessidade de compilação. Python é conhecida por sua simplicidade e flexibilidade, ideal para scripts rápidos, ciência de dados e desenvolvimento web, com uma sintaxe mais direta e interpretada. PHP, por sua vez, é focada em desenvolvimento web, com uma sintaxe que facilita a integração com HTML e é amplamente usada para criar sites dinâmicos. Cada uma tem seu próprio nicho e vantagens dependendo do tipo de projeto.
