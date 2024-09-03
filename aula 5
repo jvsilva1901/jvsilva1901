@@ -1,0 +1,22 @@
+Estrutura de Repetição;
+# Define o número de repetições
+num_repeticoes = 5
+
+# Loop para repetir a frase
+for i in range(num_repeticoes):
+    print("O Flamengo é o melhor do mundo")
+
+Link: https://www.programiz.com/online-compiler/7DMCPXCpS0Upn
+
+Estruura de Decisão:
+# Define variáveis booleanas
+flamengo_melhor_brasil = True
+bayern_maior_mundo = False
+
+# Estrutura de decisão
+if flamengo_melhor_brasil:
+    print("O Flamengo é o melhor do Brasil")
+if bayern_maior_mundo:
+    print("O Bayern de Munique é o maior do mundo")
+
+Link https://www.programiz.com/online-compiler/2YuU375iFtvpe
