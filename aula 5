@@ -6,8 +6,6 @@ num_repeticoes = 5
 for i in range(num_repeticoes):
     print("O Flamengo é o melhor do mundo")
 
-Link: https://www.programiz.com/online-compiler/7DMCPXCpS0Upn
-
 Estruura de Decisão:
 # Define variáveis booleanas
 flamengo_melhor_brasil = True
@@ -19,4 +17,3 @@ if flamengo_melhor_brasil:
 if bayern_maior_mundo:
     print("O Bayern de Munique é o maior do mundo")
 
-Link https://www.programiz.com/online-compiler/2YuU375iFtvpe
