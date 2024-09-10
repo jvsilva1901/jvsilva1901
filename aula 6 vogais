@@ -1,0 +1,13 @@
+def imprimir_vogais(texto):
+    # Definir um conjunto de vogais
+    vogais = 'aeiouAEIOU'
+    
+    # Usar list comprehension para filtrar e juntar as vogais
+    resultado = ''.join([caractere for caractere in texto if caractere in vogais])
+    
+    # Imprimir o resultado
+    print(resultado)
+
+# Exemplo de uso
+palavra = "como voce esta hoje?"
+imprimir_vogais(palavra)
