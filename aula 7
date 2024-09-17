@@ -1,0 +1,128 @@
+1) def imprimir_informacoes(nome, idade, cidade):
+    print("Nome:", nome, "Idade:", idade, "Cidade:", cidade, sep=" - ", end="!\n")
+
+# Exemplo de uso
+imprimir_informacoes("Joao", 19, "Rio de Janeiro")
+
+2) def calcular_operacao():
+    # Solicita ao usuário os números e a operação
+    num1 = float(input("Digite o primeiro número: "))
+    num2 = float(input("Digite o segundo número: "))
+    operacao = input("Digite a operação desejada ('+', '-', '*', '/'): ")
+
+    # Verifica a operação e realiza o cálculo correspondente
+    if operacao == '+':
+        resultado = num1 + num2
+    elif operacao == '-':
+        resultado = num1 - num2
+    elif operacao == '*':
+        resultado = num1 * num2
+    elif operacao == '/':
+        if num2 != 0:
+            resultado = num1 / num2
+        else:
+            print("Erro: Divisão por zero não é permitida!")
+            return
+    else:
+        print("Operação inválida!")
+        return
+    
+    # Imprime o resultado
+    print(f"O resultado de {num1} {operacao} {num2} é: {resultado}")
+
+# Exemplo de uso
+calcular_operacao()
+
+Resultado: 
+Digite o primeiro número: 
+4
+Digite o segundo número: 
+2
+Digite a operação desejada ('+', '-', '*', '/'): 
++
+O resultado de 4.0 + 2.0 é: 6.0
+
+
+** Process exited - Return Code: 0 **
+Press Enter to exit terminal
+
+3) def lista_de_compras():
+    # Solicita ao usuário que insira os itens separados por vírgula
+    itens = input("Digite os itens da lista de compras, separados por vírgula: ")
+
+    # Converte a string de itens em uma lista, removendo espaços extras
+    lista = [item.strip() for item in itens.split(',')]
+
+    # Imprime cada item com seu número correspondente
+    for i, item in enumerate(lista, start=1):
+        print(f"Item {i}: {item}")
+
+# Exemplo de uso
+lista_de_compras()
+
+Resultado:
+Digite os itens da lista de compras, separados por vírgula: 
+Arroz, Whey, Feijão, Suco
+Item 1: Arroz
+Item 2: Whey
+Item 3: Feijão
+Item 4: Suco
+
+
+** Process exited - Return Code: 0 **
+Press Enter to exit terminal
+
+
+4) def converter_para_fahrenheit():
+    # Solicita a temperatura em graus Celsius
+    celsius = float(input("Digite a temperatura em graus Celsius: "))
+    
+    # Converte para Fahrenheit usando a fórmula
+    fahrenheit = (celsius * 9/5) + 32
+    
+    # Imprime o resultado
+    print(f"{celsius} graus Celsius equivalem a {fahrenheit} graus Fahrenheit.")
+
+# Exemplo de uso
+converter_para_fahrenheit()
+
+Resultado:
+Digite a temperatura em graus Celsius: 
+39
+39.0 graus Celsius equivalem a 102.2 graus Fahrenheit.
+
+
+** Process exited - Return Code: 0 **
+Press Enter to exit terminal
+
+5) def coletar_nomes():
+    nomes = []  # Lista para armazenar os nomes
+
+    while True:
+        nome = input("Digite um nome (ou 'sair' para encerrar): ")
+
+        if nome.lower() == 'sair':  # Verifica se o usuário digitou 'sair'
+            break
+
+        nomes.append(nome)  # Adiciona o nome à lista
+
+    # Imprime todos os nomes inseridos
+    print("\nNomes digitados:")
+    for i, nome in enumerate(nomes, start=1):
+        print(f"{i}. {nome}")
+
+# Exemplo de uso
+coletar_nomes()
+
+Resultado: 
+Digite um nome (ou 'sair' para encerrar): 
+Joao Vicente
+Digite um nome (ou 'sair' para encerrar): 
+sair
+
+Nomes digitados:
+1. Joao Vicente
+
+
+** Process exited - Return Code: 0 **
+Press Enter to exit terminal
